@@ -1,0 +1,53 @@
+<!Doctype html>
+    <head>
+        <title> Feedback Form </title>
+        <link rel = "stylesheet" href="./style.css"/>
+    </head>
+    <body> 
+        <div id = "container">
+            <div id = "header">
+                <h1 align = "center"> Police Servive Feedback Form </h2>
+            </div>   
+            <hr/>
+            <form method="POST" action = "redirect.php">
+                <label for = "d1"><h3> Q : How did you come to the Police Station? </h3></label>
+                <div class = "rad1" id = "d1" aria-required="true">
+                    <input type = "radio" class = "radio-btn"  name = "question1" id = "1a" value = "1"/>
+                    <label for = "1a"> Through a person known to a polic officer.</label></br>
+                    <input type = "radio" class = "radio-btn"  name = "question1" id = "1b" value = "2"/>
+                    <label for = "1b"> With a neighbour/ local leader.</label></br>
+                    <input type = "radio" class = "radio-btn"  name = "question1" id = "1c" value = "3"/>
+                    <label for = "1c"> On you own.</label></br>
+                </div>
+                </br>
+                
+                <h3> Q : After how much time you were heard in Police Station? </h3>
+                <div class = "rad1" id = "d2" aria-required="true">
+                    <input type = "radio" class = "radio-btn"  name = "question2" id = "2a" value = ">15m"/>
+                    <label for = "2a"> More than 15 minutes.</label></br>
+                    <input type = "radio" class = "radio-btn"  name = "question2" id = "2b" value = "15m"/>
+                    <label for = "2b"> 15 minutes.</label></br>
+                    <input type = "radio" class = "radio-btn"  name = "question2" id = "2c" value = "10m"/>
+                    <label for = "2c"> 10 minutes.</label></br>
+                    <input type = "radio" class = "radio-btn"  name = "question2" id = "2d" value = "5m"/>
+                    <label for = "2d"> 5 minutes.</label></br>
+                    <input type = "radio" class = "radio-btn"  name = "question2" id = "2e" value = "0m"/>
+                    <label for = "2e"> Immediately</label></br>
+                </div>
+                </br>
+
+                <h3> Q : How did you come to the Police Station? </h3>
+                <div class = "rad1" id = "d3">
+                    <textarea rows = "5" cols="60" name = "question3" id = "tbox" value = "Write here." maxlength="300" required></textarea>
+                </div>
+
+                <h3> Upload your images/ Videos/ Audios, if any.(Optional)</h3>
+                <div class = "rad1" id = "d4">
+                    <input type = "file" id = "docs" accept="image/*, video/*, audio/* "/>
+                </div>
+                </br></br>
+                <input type="submit" id = "submit-btn" value="SUBMIT Feedback" name = "submit"/>
+            </form>
+        </div>
+    </body>
+</html>

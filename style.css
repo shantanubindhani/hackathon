@@ -1,0 +1,74 @@
+
+body{
+    background-color: rgb(184, 166, 141);
+}
+
+#container{
+    padding: 50px;
+    background-color: rgba(244, 243, 209, 0.7);
+    border-radius: 50px;
+    margin: 10px;
+}
+.rad1{
+    padding-left: 50px;
+}
+#tbox{
+    font-size: 16px;
+}
+
+#submit-btn{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    height: 30px;
+    width: fit-content;
+}
+
+/*
+    user login ------------------------------
+*/
+.ulogin{
+    background-color: rgba(178, 238, 119, 0.7);
+}
+
+.ulogin .container{
+    width:300px;
+    height:300px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    padding: 10px;
+    transform: translate(-50%, -120%);
+    background-color: rgba(255, 255, 255, 0.797);
+    border-radius: 5%;
+    box-shadow: 5px 10px 90deg;
+
+
+}
+.ulogin input{
+    margin-bottom: 10px;
+    width: 200px;
+    height: 10%;
+    font-size: 14px;
+    color: rgb(70, 69, 69);
+    border-style: none;
+    border-radius: 5px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+
+}
+
+.ulogin .btn{
+    width: 100%;
+}
+
+.ulogin form{
+    width:fit-content;
+    height:fit-content;
+    position: absolute;
+    top:50%;
+    left:50%;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
